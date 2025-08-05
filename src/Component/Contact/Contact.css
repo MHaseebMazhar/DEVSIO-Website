@@ -1,0 +1,67 @@
+.contact-wrapper {
+  padding: 5rem 1rem;
+  background: linear-gradient(to right, #eaf2f8, #d4e6f1);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.contact-header {
+  margin-bottom: 2rem;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a2e46;
+  position: relative;
+}
+
+.contact-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #007bff;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
+.contact-subtitle {
+  font-size: 1.1rem;
+  color: #4d6a8a;
+  margin-top: 0.5rem;
+}
+
+.contact-card {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 2.5rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.2rem 0;
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+.contact-icon {
+  color: #007bff;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.contact-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
